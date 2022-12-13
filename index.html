@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="utf-8">
+
+   <!------- META SCALE ------------->
+   <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=5.0">
+
+   <!------- META DESCRIPTION ------------->
+   <meta
+         name="description"
+         content=" YOUR DESCRIPTION HERE">
+
+   <!------- FAV ICON ------------->
+   <link rel="icon" type="image/x-icon" href="#">
+
+   <!------- REMIX ICONS --------->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css">
+
+   <!----- SETYLESHEET CSS ------->
+   <link rel="stylesheet" Type="text/css" href="assets/css/style.css">
+
+   <!----- SWIPER CSS ------->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+
+   <title>Responsive menu</title>
+</head>
+
+<body>
+
+   <div id="page" class="site">
+      <div class="navigation">
+         <nav class="container">
+            <div class="nav-top">
+               <ul class="right flex-item">
+                  <li><a href="#">register</a></li>
+                  <li><a href="#">login</a></li>
+                  <li><a href="#" class="flex-item">BRL <i class="ri-arrow-down-s-line icon-small"></i></a>
+                     <ul>
+                        <li class="current"><a href="#">BRL</a></li>
+                        <li><a href="#">USD</a></li>
+                        <li><a href="#">EUR</a></li>
+                     </ul>
+                  </li>
+                  <li><a href="#" class="flex-item">PT <i class="ri-arrow-down-s-line icon-small"></i></a>
+                     <ul>
+                        <li class="current"><a href="#">PT</a></li>
+                        <li><a href="#">EN</a></li>
+                        <li><a href="#">ES</a></li>
+                     </ul>
+                  </li>
+               </ul>
+            </div>
+            <div class="nav-middle flex-between">
+               <div class="left flex-item">
+                  <div class="toggle flex-item desktop-hide">
+                     <a href="#" onclick="openNav()"><i class="ri-menu-line icon-large"></i></a></li>
+                  </div>
+                  <div class="brand">
+                     <a href="#"><h2><span></span> BRAND. </h2></a>
+                  </div>
+                  <div class="flex-item">
+                     <ul class="flex-between center-items mobile-hide">
+                        <li><a href="#"><i class="ri-home-line icon-small desktop-hide"></i>Home</a></li>
+                        <li><a href="#"><i class="ri-shirt-line icon-small desktop-hide"></i>Men</a></li>
+                        <li><a href="#"><i class="ri-t-shirt-line icon-small desktop-hide"></i>Women</a></li>
+                        <li><a href="#"><i class="ri-headphone-fill icon-small desktop-hide"></i>Eletronics</a></li>
+                        <li><a href="#"><i class="ri-riding-line icon-small desktop-hide"></i>Sports</a></li>
+                        <li><a href="#"><i class="ri-user-3-line icon-small desktop-hide"></i>Beauty</a></li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="right flex-item">
+                  <div>
+                     <ul class="icons flex-item">
+                        <li><a href="#" class="flex-item"><i class="ri-heart-line icon-large"></i></a></li>
+                        <li>
+                           <a href="#" class="flex-item">
+                              <i class="ri-shopping-cart-line icon-large"></i>
+                              <div class="total-price">
+                                 <p>Total: </p>
+                                 <p>R$0,00</p>
+                              </div>
+                           </a>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+            <div id="side-nav" class="off-canvas">
+               <div class="brand flex-between">
+                  <a href="#">
+                     <h2><span></span> BRAND. </h2>
+                     <a href="#" onclick="closeNav()"><i class="ri-close-line icon-large"></i></a>
+                  </a>
+               </div>
+               <div class="flex-item">
+                  <ul class="flex-between center-items">
+                     <li><a href="#"><i class="ri-home-line icon-small desktop-hide"></i>Home <i class="ri-arrow-right-s-line icon-small"></i></a></li>
+                     <li><a href="#"><i class="ri-shirt-line icon-small desktop-hide"></i>Men <i class="ri-arrow-right-s-line icon-small"></i></a></li>
+                     <li><a href="#"><i class="ri-t-shirt-line icon-small desktop-hide"></i>Women <i class="ri-arrow-right-s-line icon-small"></i></a></li>
+                     <li><a href="#"><i class="ri-headphone-fill icon-small desktop-hide"></i>Eletronics <i class="ri-arrow-right-s-line icon-small"></i></a></li>
+                     <li><a href="#"><i class="ri-riding-line icon-small desktop-hide"></i>Sports <i class="ri-arrow-right-s-line icon-small"></i></a></li>
+                     <li><a href="#"><i class="ri-user-3-line icon-small desktop-hide"></i>Beauty <i class="ri-arrow-right-s-line icon-small"></i></a></li>
+                  </ul>
+               </div>
+            </div>
+         </nav>
+      </div>
+   </div>
+
+
+
+   <!----- SCRIPTS ---------------------------------------->
+   <!----- MAIN JS ---------------------------------------->
+   <script src="assets/js/main.js"></script>
+
+</body>
+</html>
